@@ -9,8 +9,9 @@ Integrantes:
 5. Michael Velasquez Miranda
 
 # Comandos usados
-```sudo terraform init
-    sudo terraform plan
-    sudo terraform apply
-    sudo docker ps
-    sudo docker inspect network grafanet
+```
+sudo terraform init
+sudo terraform plan
+sudo terraform apply
+sudo docker ps
+sudo docker inspect network grafanet
