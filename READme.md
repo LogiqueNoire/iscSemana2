@@ -13,22 +13,16 @@ Grupo 07
 4. José Saldaña Zumarán  
 5. Michael Velásquez Miranda  
 
----
-
 # 🛠Instrucciones
 
 ### 1. Descarga el `.zip` y descomprímelo.  
 Luego, abre una terminal y navega a la carpeta del proyecto.
-
----
 
 ### 2. Inicializa Terraform y descarga los providers:
 
 ```bash
 sudo terraform init
 ```
-
----
 
 ### 3. (Opcional) Genera un plan de ejecución para ver los cambios que se aplicarán
 
@@ -37,7 +31,6 @@ Este paso no es obligatorio, pero te permite revisar qué recursos se crearán, 
 ```bash
 sudo terraform plan
 ```
----
 
 ### 4. Aplica los cambios definidos en la configuración de Terraform
 
