@@ -14,7 +14,8 @@ Integrantes:
 
 # Instrucciones
 1. Descarga el zip y descomprímelo. Luego desde la terminal
-3. Inicializa terraform y descarga providers 
+2. Inicializa terraform y descarga providers
+
 ```sudo terraform init
 
 3. Genera un plan de ejecución que muestra los cambios que hará Terraform si aplicas la configuración (opcional)
