@@ -38,24 +38,35 @@ Por ejemplo
 
 ```http://localhost:8000
 
-# 🚀 Despliegue de infraestructura con Terraform + Docker
+# 🌱 Primeros pasos en Terraform  
+**Grupo 07**
 
-## ✅ Requisitos
+## 🧱 Infraestructura solicitada
 
-- Docker instalado
-- Terraform instalado
-- Acceso a la terminal con permisos `sudo`
-- Archivo `.zip` del proyecto descargado
+<img width="1241" height="691" alt="image" src="https://github.com/user-attachments/assets/6fd4003f-fe07-4a4d-b2d3-cedee624e9b2" />
 
 ---
 
-## 📝 Instrucciones
+## 👥 Integrantes:
 
-### 1. Descarga y descomprime el proyecto
+1. Hugo Cárdenas Iglesias  
+2. Leandro Mauricci Becerra  
+3. Aryel Meza Córdova  
+4. José Saldaña Zumarán  
+5. Michael Velásquez Miranda  
 
-Descarga el archivo `.zip` del proyecto y descomprímelo en una carpeta de tu preferencia:
+---
+
+# 🛠️ Instrucciones
+
+### 1. Descarga el `.zip` y descomprímelo.  
+Luego, abre una terminal y navega a la carpeta del proyecto.
+
+---
+
+### 2. Inicializa Terraform y descarga los providers:
 
 ```bash
-unzip nombre-del-archivo.zip
-cd nombre-del-proyecto
+sudo terraform init
+
 
