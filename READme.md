@@ -29,3 +29,25 @@ Luego desde la terminal
 7. Verifica algún servicio mediante su puerto asignado
 Por ejemplo
 ```http://localhost:8000
+
+# 🚀 Despliegue de infraestructura con Terraform + Docker
+
+## ✅ Requisitos
+
+- Docker instalado
+- Terraform instalado
+- Acceso a la terminal con permisos `sudo`
+- Archivo `.zip` del proyecto descargado
+
+---
+
+## 📝 Instrucciones
+
+### 1. Descarga y descomprime el proyecto
+
+Descarga el archivo `.zip` del proyecto y descomprímelo en una carpeta de tu preferencia:
+
+```bash
+unzip nombre-del-archivo.zip
+cd nombre-del-proyecto
+
