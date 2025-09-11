@@ -27,12 +27,16 @@ Luego, abre una terminal y navega a la carpeta del proyecto.
 ```bash
 sudo terraform init
 
+---
+
 ### 3. (Opcional) Genera un plan de ejecución para ver los cambios que se aplicarán
 
 Este paso no es obligatorio, pero te permite revisar qué recursos se crearán, modificarán o eliminarán **antes de aplicar los cambios**.
 
 ```bash
 sudo terraform plan
+
+---
 
 ### 4. Aplica los cambios definidos en la configuración de Terraform
 
