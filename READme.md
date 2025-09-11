@@ -40,4 +40,24 @@ Este comando aplica la configuración escrita en los archivos `.tf` y crea la in
 sudo terraform apply
 ```
 
+### 5. Lista los contenedores Docker en ejecución actualmente
+
+Una vez aplicada la infraestructura con Terraform, puedes verificar qué contenedores están corriendo usando:
+
+```bash
+sudo docker ps
+```
+### 6. Inspecciona alguna de las redes Docker creadas
+
+Para verificar la configuración y los contenedores conectados a una red específica, utiliza el comando:
+
+```bash
+sudo docker inspect network <nombreRed>
+```
+### 7. Verifica que los servicios estén accesibles mediante su puerto asignado
+
+Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
+
+Por ejemplo, ingresa:`http://localhost:8000/`
+
 
