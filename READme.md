@@ -10,12 +10,12 @@ Integrantes:
 
 # Comandos usados
 
-  sudo terraform init
+    sudo terraform init
   
-  sudo terraform plan
+    sudo terraform plan
   
-  sudo terraform apply
+    sudo terraform apply
   
-  sudo docker ps
+    sudo docker ps
   
-  sudo docker inspect network grafanet
+    sudo docker inspect network grafanet
