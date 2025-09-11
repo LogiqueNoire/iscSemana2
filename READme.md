@@ -36,7 +36,7 @@ Este paso no es obligatorio, pero te permite revisar qué recursos se crearán, 
 
 ```bash
 sudo terraform plan
-
+```
 ---
 
 ### 4. Aplica los cambios definidos en la configuración de Terraform
@@ -45,6 +45,6 @@ Este comando aplica la configuración escrita en los archivos `.tf` y crea la in
 
 ```bash
 sudo terraform apply
-
+```
 
 
