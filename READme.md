@@ -26,6 +26,7 @@ Luego, abre una terminal y navega a la carpeta del proyecto.
 
 ```bash
 sudo terraform init
+```
 
 ---
 
